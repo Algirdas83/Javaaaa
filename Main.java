@@ -9,7 +9,7 @@ public class Main {
 
     //  I Objektu masyva mokiniai dedami duomenys
 
-        mokiniai[0] = new Mokinys("Simas", "Simaitis", 8, 9);
+        mokiniai[0] = new Mokinys("Simas", "Simaitis", 8,new int[]{9, 8, 10});
         mokiniai[1] = new Mokinys("Stase", "stasyte", 9, 10);
         mokiniai[2] = new Mokinys("Tadas", "Greitas", 8, 8);
         mokiniai[3] = new Mokinys("Paulius", "Paulaitis", 11, 8);

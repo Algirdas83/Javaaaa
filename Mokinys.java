@@ -5,7 +5,7 @@ public class Mokinys{
     String vardas;
     String pavarde;
     int klase;
-    int[] pazimiai = new [10] ;
+    int[] pazimiai = new int [3] ;
 
     Mokinys(String vardas, String pavarde, int klase, int[] pazimiai)
     {
