@@ -4,7 +4,18 @@ public class Mokinys{
 
     String vardas;
     String pavarde;
-    int pazimys;
+    int klase;
+    int[] pazimiai = new [10] ;
+
+    Mokinys(String vardas, String pavarde, int klase, int[] pazimiai)
+    {
+        this.vardas = vardas;
+        this.pavarde = pavarde;
+        this.klase = klase;
+        this.pazimiai = pazimiai;
+
+
+    }
 
     Mokinys(String vardas, String pavarde)
     {
@@ -12,13 +23,6 @@ public class Mokinys{
         this.pavarde = pavarde;
 
 
-    }
-
-    Mokinys(String vardas, String pavarde, int pazimys)
-    {
-        this.vardas = vardas;
-        this.pavarde = pavarde;
-        this.pazimys = pazimys;
     }
 
 
